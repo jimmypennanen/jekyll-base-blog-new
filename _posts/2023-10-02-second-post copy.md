@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My second post
-category: [travel, new-york, hockey]
+category: [travel, pittsburgh, hockey]
 ---
 
 ## Adventures in Pittsburgh

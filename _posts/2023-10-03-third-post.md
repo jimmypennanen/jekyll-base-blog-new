@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My third post
-category: [travel, new-york, hockey]
+category: [travel, key west, hockey]
 ---
 
 ## Adventures in Key West
