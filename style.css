@@ -100,9 +100,9 @@ span {
     display: inline-block;
   }
 
-  .background-image {
-      background-size: cover;
-      background-position: center;
+  .bg-image {
+    background-position: center;
+    background-size: cover;
   }
 
   .square {
