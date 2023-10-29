@@ -3,11 +3,15 @@ layout: default
 title: Blog Page
 ---
 
-<section class="grid">
+<section class="grid padded">
 
-    {% for post in site.posts %}
+    <div>
+        <h1> Latest on the blog </h1>
+    </div>
 
-    <div class="col-4_xs-12">
+    {% for post in site.posts limit: 12 %}
+
+    <div class="col-4_xs-12 post-item padded-1">
 
         <div class="bg-image square" style="background-image:url('{{ post.featured_image }}')"></div>
         <h3> {{ post.title }} </h3>
